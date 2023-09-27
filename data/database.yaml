@@ -1,0 +1,5 @@
+username: db_test
+password: root
+host: localhost
+port: 5432
+databaseName: postgres
