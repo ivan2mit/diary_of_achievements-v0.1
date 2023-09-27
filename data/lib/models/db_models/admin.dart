@@ -22,10 +22,10 @@ class _Admin {
 
   @Column(nullable: false)
   String? hashPassword;
-
+  
+  @Column(nullable: false)
   DateTime? birthDate;
 
-  @Column(nullable: false)
   String? phoneNumber;
 
   ManagedSet<UserRole>? roleList;
