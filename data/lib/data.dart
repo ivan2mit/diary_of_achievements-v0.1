@@ -5,7 +5,7 @@ import 'package:data/utils/app_env.dart';
 
 class AppService extends ApplicationChannel {
   late final ManagedContext managedContext;
-
+  //change!!!
   @override
   Future prepare() {
     final persistentStore = _initDataBase();
